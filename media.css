@@ -1,0 +1,255 @@
+
+#main{
+    background: #F1F1F1;
+}
+
+#header{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    padding:24px 11.1% 88px 11.1%;
+}
+a{
+    text-decoration: underline;
+}
+.heading {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+    padding-left:11.1%;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    
+}
+.article{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top:45px;
+    padding-left:11.1%;
+    padding-right:11.1%;
+    border-bottom: 1px solid #00000033;
+    align-items:center;
+}
+
+.littleImage{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.line{
+    display: flex;
+    flex-direction:row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.grey{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.innertext{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:4px;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Inter';
+    font-style: normal;
+    width:67%;
+    border-bottom-width:1px;
+    padding-bottom:45px;
+}
+.innerLine{
+    display:flex;
+    flex-direction:row;
+    gap:8px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap:14px;
+    width: 24px;
+    height: 24px;
+}
+
+.btn{
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+    border-radius: 100px;
+    border:none;
+    width: 107px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.btn:hover{
+    background-color:purple;
+}
+
+
+#title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+
+#title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.abstract{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-bottom:70px;
+}
+
+.images{
+    width:23%;
+    height: 265px;
+    padding-bottom:36px;
+}
+
+.footer{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:40px;
+    padding:316px 11.1% 30px 11.1%;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+    padding-left:11.1%;
+}
+.article1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 160px 11.1% 70px 11.1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+.text_1{
+    display: flex;
+    flex-direction:row;
+    gap:16px;
+}
+.singleimg{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+}
+.icons1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:20px;
+}
+
+.inner_1{
+    display:flex;
+    flex-direction: column;
+}
+
+.line_1{
+    display:flex;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 18px;
+    gap:4px;
+    opacity: 0.5;
+}
+.title_one{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.abstract_one{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.quen{
+    width: 100%;
+    height: auto;
+}
+.lorem{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.bookmark{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.subsection{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.main_content{
+    display:flex;
+    flex-direction: column;
+    padding-left:11.1%;
+    padding-right:11.1%;
+    border-bottom: 1px solid #00000033;
+    padding-bottom:39px;
+}
+.likes{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B7B7B7;
+}
